@@ -21,7 +21,7 @@ public class Test {
             return this;
         }
         public Builder age(int s){
-            this.id=s;
+            this.age=s;
             return this;
         }
         public Builder name(String name){
@@ -35,6 +35,6 @@ public class Test {
 
     @Override
     public String toString() {
-        return "Test:"+id+age+name;
+        return "Test:"+id+"----"+age+"----"+name;
     }
 }
