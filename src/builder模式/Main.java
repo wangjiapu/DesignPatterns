@@ -5,7 +5,7 @@ public class Main {
         Test test=new Test.Builder()
                 .id(1)
                 .name("test")
-                .age(20)
+                .age(30)
                 .build();
         System.out.println(test.toString());
     }
